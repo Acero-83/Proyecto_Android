@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editText_TextSize">20sp</dimen>
+    <dimen name="loginHorizontalMargin">40dp</dimen>
+    <dimen name="login_marginTop">20dp</dimen>
+    <dimen name="imageView_layoutHeigth">150dp</dimen>
+    <dimen name="textView_textSIze">18sp</dimen>
+    <dimen name="padding_create_account">40dp</dimen>
+    <dimen name="marginTop_create_account">35dp</dimen>
+    <dimen name="heigth_cardview">250dp</dimen>
+    <dimen name="corner_radius_cardview">20dp</dimen>
+    <dimen name="margin_cardview">10dp</dimen>
+</resources>
