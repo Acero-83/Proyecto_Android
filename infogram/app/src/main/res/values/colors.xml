@@ -17,4 +17,7 @@
     <color name="buttonTextColor">#FFFFFF</color>
     <color name="textView_textColor">#FFFFFF</color>
     <color name="colorBlack">#000000</color>
+    <color name="background_cardview">#33030303</color>
+    <color name="textColor_white">#FDFAFA</color>
+    <color name="item_white">#FAFAFA</color>
 </resources>

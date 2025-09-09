@@ -1,16 +1,16 @@
 package com.acer083.infogram;
 
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.acer083.infogram.view.ConteinerActivity;
+import com.acer083.infogram.view.CreateAccountActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -26,6 +26,11 @@ public class LoginActivity extends AppCompatActivity {
     }
     public void goCreateAccount(View view){
         Intent intent = new Intent(this, CreateAccountActivity.class);
+        startActivity(intent);
+    }
+
+    public void login(View view) {
+        Intent intent = new Intent(this, ConteinerActivity.class);
         startActivity(intent);
     }
 }

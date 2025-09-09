@@ -16,7 +16,6 @@
     <style name="Theme.Infogram.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
     </style>
     <style name="Theme.Infogram.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
-
     </style>
     <style name="EditTextWhite" parent="Theme.AppCompat.Light">
         <item name="android:textSize">@dimen/editText_TextSize</item>
